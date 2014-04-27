@@ -1,0 +1,120 @@
+@font-face {
+	font-family: 'fira';
+	src: url('FiraSansOT-Light.otf');
+}
+
+*{
+	margin: 0; /*margenes de todo el documento html formateados*/
+}
+body{
+	background: #FFFFFF;
+	color:white;
+	font-family: fira;
+	font-size: 16px;
+	text-shadow: 1px 1px 0 rgba(0,0,0,.3);
+}
+header{
+	border: 2px;
+	background: linear-gradient(	#8585FF, #1E90FF);
+	padding: 20px;
+	text-align: center;
+	margin: 10px;
+	border-radius: 10px;
+}
+#contenedor{
+	background: gray;
+	margin: 0 auto;
+	max-width: 1280px;
+	padding: 10px;
+}
+#mapa{
+	background: #EEEEEE ;
+	padding: 20px;
+	text-align: center;
+}
+#mapa article{
+	background: #FFFFFF;
+	border: 2px ;
+	border-radius: 5px;
+	display: inline-block;
+	margin: 10px;
+	padding: 10px;
+	box-shadow: 0 8px 8px rgba(100,100,100, 0.5);
+    -moz-box-shadow:0 8px 8px rgba(0,0,0, .5);
+    -webkit-box-shadow:0 8px 8px rgba(0,0,0, .5);
+}
+#map{
+	height: 400px;
+	width: 400px;
+}
+#botones{
+	font-size: 1.2em;
+	padding: 10px;
+	/*width: 300px;*/
+	vertical-align: top;
+}
+button{
+	width: 140px;
+	height: 60px;
+	background: #3399FF; 
+	color: white;
+	border-radius:15px;
+	font-size: 1em;
+	margin: 20px;
+	cursor: pointer;
+}
+button:hover{
+	width: 140px;
+	height: 60px;
+	background: #62B1FF; 
+	color: white;
+	border-radius:15px;
+	font-size: 1em;
+	margin: 20px;
+}
+
+
+h2{
+	text-align: center;
+	font-size: 1em;
+	color: black;
+}
+.btn{
+	width: 90px;
+	height: 25px;
+	background: #3399FF; 
+	color: white;
+	border-radius: 4px;
+	font-size: 0.8em;
+	margin: 10px;
+	text-align: center;
+	cursor: pointer;
+}
+.btn:hover{
+	width: 90px;
+	height: 25px;
+	background: #62B1FF; 
+	color: white;
+	border-radius: 4px;
+	font-size: 0.8em;
+	margin: 10px;
+	text-align: center;
+	cursor: pointer;
+
+}
+#form{
+	margin: 10px;
+
+}
+#address{
+	border: 0.2px solid gray;
+	border-radius: 3px;
+}
+
+@media screen and (max-width: 480px){
+	#map{
+		height: 400px;
+		width: 250px;
+	}
+
+}
